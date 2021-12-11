@@ -15,10 +15,12 @@ For a = [2, 4, 7, 6], the output should be
 absoluteValuesSumMinimization(a) = 4.
 
 For a = [2, 4, 7, 6, 6], the output should be
-absoluteValuesSumMinimization(a) = 7.
+absoluteValuesSumMinimization(a) = ~~7~~ 6.
 
 For a = [2, 4, 7, 6, 6, 8], the output should be
-absoluteValuesSumMinimization(a) = 7.
+absoluteValuesSumMinimization(a) = ~~7~~ 6.
+
+**There is error in the solution**
 
 **Hints**
 -   Math.floor()

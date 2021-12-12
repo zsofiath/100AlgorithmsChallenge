@@ -1,6 +1,6 @@
 import { addBorder } from './addBorder';
 
-describe(addBorder.name, () => {
+xdescribe(addBorder.name, () => {
     it('Test 1', () => {
         // arrange
         const data = ['abc', 'ded'];

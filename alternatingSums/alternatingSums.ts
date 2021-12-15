@@ -1,15 +1,15 @@
 export function alternatingSums(a: number[]): number[] {
-let even = [];
-let odd = [];
+let even = 0;
+let odd = 0;
 
 a.forEach((num, i) => {
-    if(i % 2 == 1) odd.push(num);
-    else even.push(num);
+    if(i % 2 == 1) odd+=num;
+    else even+=num;
 });
 
 return [
-    even.reduce((a,c)=>a+c, 0),
-    odd.reduce((a,c)=>a+c, 0)
+    even,
+    odd
 ]
 }
 

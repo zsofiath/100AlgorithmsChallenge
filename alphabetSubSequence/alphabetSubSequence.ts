@@ -1,5 +1,8 @@
 export function alphabetSubsequence(s: string): boolean {
-
+    let i = 1;
+    let str = s.split('');
+    while(s.charCodeAt(i-1) < s.charCodeAt(i) && i < s.length) i++;
+    return i == s.length
 }
 
 console.log(alphabetSubsequence('zab'))
